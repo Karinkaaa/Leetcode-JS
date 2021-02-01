@@ -1,5 +1,5 @@
 /**
- * Gets reversed 32-bit signed number
+ * Returns reversed 32-bit number
  *
  * @param {number} x
  * @return {number}
