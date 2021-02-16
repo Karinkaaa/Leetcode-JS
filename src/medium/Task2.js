@@ -35,9 +35,6 @@ const getArrayFromNode = (node) => {
  * @returns {ListNode}
  */
 const getNodeFromArray = (array) => {
-    if (array.length === 0) return new ListNode(0, null);
-    if (array.length === 1) return new ListNode(array[0], null);
-
     let listNode = new ListNode(array[0], null);
     let tmp = listNode;
 
