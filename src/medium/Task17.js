@@ -41,15 +41,10 @@ const letterCombinations = function (digits) {
     };
 
     if (digits < 10) return letterCombinations[digits];
+    let res = digits.split("");
 
-    let res = [];
-    let i = 0;
-
-    while (i !== digits.length) {
-        res = concatenateTwoArrays(res, letterCombinations[digits[i++]]);
-    }
-
-    return res;
+    return res.reduce((previousValue, currentValue) =>
+        concatenateTwoArrays(previousValue, letterCombinations[currentValue]), []);
 };
 
 module.exports = letterCombinations;
