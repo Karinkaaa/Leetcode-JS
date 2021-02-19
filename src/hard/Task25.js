@@ -36,7 +36,7 @@ const getNodeFromArray = (array) => {
  *
  * @param {ListNode} head
  * @param {number} k
- * @returns {[number]}
+ * @returns {Array<Array<number>>}
  */
 const getReversedKTimesValues = (head, k) => {
     const values = [];
@@ -61,7 +61,7 @@ const getReversedKTimesValues = (head, k) => {
 /**
  * Concatenate two dimensional array to one dimensional array
  *
- * @param {number} array
+ * @param {Array<Array<number>>} array
  * @returns {[number]}
  */
 const concatenateTwoDimensionalArray = (array) => {
