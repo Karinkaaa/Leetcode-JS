@@ -11,3 +11,7 @@ test("Find the longest common prefix string amongst ['dog', 'racecar', 'car']", 
 test("Find the longest common prefix string amongst []", () => {
     expect(longestCommonPrefix([])).toBe("");
 });
+
+test("Find the longest common prefix string amongst ['']", () => {
+    expect(longestCommonPrefix([""])).toBe("");
+});
