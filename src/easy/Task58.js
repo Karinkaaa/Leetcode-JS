@@ -1,5 +1,5 @@
 /**
- * Return the length of the last word in the string
+ * Returns the length of the last word in the string
  *
  * @param {string} s
  * @return {number}
