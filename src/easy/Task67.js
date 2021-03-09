@@ -10,7 +10,7 @@ const addBinary = function (a, b) {
 
     if (a.length < b.length) a = alignBinaryLine(a, b);
     else if (a.length > b.length) b = alignBinaryLine(b, a);
-
+    
     let length = a.length - 1;
     let remainder = 0;
 

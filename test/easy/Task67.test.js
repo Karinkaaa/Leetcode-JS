@@ -15,3 +15,7 @@ test("Return the sum of two binary strings '0' and '0' as a binary string", () =
 test("Return the sum of two binary strings '1' and '111' as a binary string", () => {
     expect(addBinary("1", "111")).toBe("1000");
 });
+
+test("Return the sum of two binary strings '1111' and '1111' as a binary string", () => {
+    expect(addBinary("1111", "1111")).toBe("11110");
+});
