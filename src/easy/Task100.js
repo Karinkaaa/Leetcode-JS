@@ -14,6 +14,7 @@ function TreeNode(val, left, right) {
 
 /**
  * Checks if nodes are the same or not
+ *
  * @param {TreeNode} p
  * @param {TreeNode} q
  * @return {boolean}
