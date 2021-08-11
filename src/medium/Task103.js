@@ -13,6 +13,9 @@ function TreeNode(val, left, right) {
 }
 
 /**
+ * Returns the zigzag level order traversal of 'root' nodes' values (i.e., from left to right,
+ * then right to left for the next level and alternate between)
+ *
  * @param {TreeNode} root
  * @return {number[][]}
  */
