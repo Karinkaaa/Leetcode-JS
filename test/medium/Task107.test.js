@@ -7,7 +7,7 @@ test("Return the bottom-up level order traversal of [3, 9, 20, 1, 8, 15, 7, 4, 1
     expect(levelOrderBottom(root)).toStrictEqual(expected);
 });
 
-test("Return the bottom-up level order traversal of [3, 9, 20, null, null, 15, 7,] nodes' values", () => {
+test("Return the bottom-up level order traversal of [3, 9, 20, null, null, 15, 7] nodes' values", () => {
     const root = new TreeNode(3, new TreeNode(9), new TreeNode(20, new TreeNode(15), new TreeNode(7)));
     const expected = [[15, 7], [9, 20], [3]];
 
