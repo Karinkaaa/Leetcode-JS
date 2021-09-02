@@ -3,6 +3,7 @@ const { sortedArrayToBST, TreeNode } = require("../../src/easy/Task108");
 test("Convert [-10, -3, 0, 5, 9] to a height-balanced binary search tree", () => {
     const nums = [-10, -3, 0, 5, 9];
     const expected = new TreeNode(0, new TreeNode(-3, new TreeNode(-10)), new TreeNode(9, new TreeNode(5)));
+
     expect(sortedArrayToBST(nums)).toStrictEqual(expected);
 });
 
