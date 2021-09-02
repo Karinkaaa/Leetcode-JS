@@ -25,6 +25,8 @@ function TreeNode(val, left, right) {
 }
 
 /**
+ * Converts linked list to a height-balanced binary search tree
+ *
  * @param {ListNode} head
  * @return {TreeNode}
  */
